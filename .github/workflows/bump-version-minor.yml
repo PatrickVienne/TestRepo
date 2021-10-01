@@ -2,8 +2,7 @@ name: Push a new tag with minor update
 
 on:
   push:
-    branches:
-      - develop
+    branches: [develop]
 jobs:
   release:
     runs-on: ubuntu-latest
